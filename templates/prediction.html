@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="icon" href="../static/image/heartbeat.png" type="image/x-icon" />
+    <title>Prediction</title>
+  </head>
+  <body class="bg-gray-100">
+    <!-- Nav Bar -->
+    <nav class="bg-transparent fixed top-0 w-full shadow-lg z-50">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse text-3xl font-bold text-white/80 hover:text-black transition transition-color duration-300">
+          <i class="fa fa-heartbeat "></i>
+          <h3>Medicare</h3>
+        </a>
+        <button data-collapse-toggle="navbar-default" type="button" class="md:hidden p-2 rounded-lg text-gray-600 hover:bg-gray-200 focus:outline-none">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+          </svg>
+        </button>
+        <div class="hidden md:flex space-x-6" id="navbar-default">
+          <a href="/prediction" class="text-white/80 font-medium hover:text-gray-600">Prediction</a>
+          <a href="/alzheimer" class="hover:text-white/80">Alzheimer</a>
+          <a href="/braintumor" class="hover:text-white/80">Brain Tumor</a>
+          <a href="/breastcancer" class="hover:text-white/80">Breast Cancer</a>
+          <a href="/covid" class="hover:text-white/80">Covid-19</a>
+          <a href="/diabetes" class="hover:text-white/80">Diabetes</a>
+          <a href="/heartdisease" class="hover:text-white/80">Heart Disease</a>
+          <a href="/pneumonia" class="hover:text-white/80">Pneumonia</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="relative min-h-[75vh] flex flex-col justify-center items-center text-center">
+      <!-- Background Image -->
+      <div class="absolute inset-0 -z-10">
+        <img src="../static/image/Healthcure2.png" alt="Healthcare" class="w-full h-full object-cover" />
+        <div class="absolute inset-0 bg-gradient-to-t from-[#14293ad6] to-[#5c899ccb]"></div>
+      </div>
+
+      <!-- Text Content -->
+      <div class="w-3/4 text-white space-y-6">
+        <h1 class="text-4xl font-bold">Welcome to Medicare</h1>
+        <p class="text-lg">An AI-powered health assistant that helps you detect and monitor critical diseases with ease. Get quick predictions and insights for Alzheimer’s, Brain Tumors, Breast Cancer, and more!</p>
+        <a href="/alzheimer" class="px-6 py-3 bg-[#46697a] text-white rounded-lg hover:bg-[#46697a]/80 transition">🔍 Start Diagnosis</a>
+      </div>
+    </div>
+
+    <!-- Key Features Section -->
+    <div class="py-12 px-6 text-center bg-white">
+      <h2 class="text-3xl font-bold text-gray-800 mb-6">Key Features</h2>
+      <ul class="text-gray-600 space-y-3 w-full text-left px-10">
+        <li>AI-Powered Predictions: Medicare uses AI to detect diseases.</li>
+        <li>Real-Time Health Monitoring: Integrated with IoT devices (heart rate & temperature tracking).</li>
+        <li>User-Friendly Interface: Designed for ease of use and accessibility.</li>
+      </ul>
+    </div>
+    
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+  </body>
+</html>

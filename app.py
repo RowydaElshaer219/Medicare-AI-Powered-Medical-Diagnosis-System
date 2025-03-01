@@ -88,6 +88,9 @@ def crop_imgs(set_name, add_pixels_value=0):
 def home():
     return render_template('homepage.html')
 
+@app.route('/prediction')
+def prediction():
+    return render_template('prediction.html')
 
 @app.route('/covid')
 def covid():

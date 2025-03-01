@@ -1,248 +1,405 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Medicare</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Free Website Template" name="keywords" />
+    <meta content="Free Website Template" name="description" />
 
-<style>
-    .headstyle {
-        color: rgb(255, 255, 255);
-        font-variant: petite-caps;
-        background-color: rgb(0, 0, 0, 0.8);
-        margin-bottom: 0px
-    }
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
 
-    .divstyle {
-        border-radius: 10px 10px 10px 10px;
-        margin-left: 1px;
-        margin-right: 1px
-    }
-</style>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS Libraries -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="../static/lib/animate/animate.min.css" rel="stylesheet" />
+    <link
+      href="../static/lib/owlcarousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+    <link href="../static/lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-        <script src="https://kit.fontawesome.com/0b49cd14a8.js" crossorigin="anonymous"></script>
-    <title>HealthCure</title>
-</head>
+    <!-- Template Stylesheet -->
+    <link href="../static/css/Api.css" rel="stylesheet" />
+    <link rel="icon" href="../static/image/heartbeat.png" type="image/x-icon" />
+  </head>
 
-<body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Nav Bar Start -->
+    <div class="navbar navbar-expand-lg bg-light navbar-light">
+      <div class="container-fluid">
+        <a href="/" class="navbar-brand"
+          ><i class="fa fa-heartbeat"></i> Medicare</a
+        >
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="/"><i class="fa-solid fa-heart-pulse"></i>Medicare</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-
-                    <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="/covid">Covid</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="/braintumor">Brain Tumor</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="/breastcancer">Breast Cancer</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="/alzheimer">Alzheimer</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="/diabetes">Diabetes</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="/pneumonia">Pneumonia</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="/heartdisease">Heart Disease</a>
-                    </li>
-                </ul>
-            </div>
+        <div
+          class="collapse navbar-collapse justify-content-between"
+          id="navbarCollapse"
+        >
+          <div class="navbar-nav ml-auto">
+            <a href="#home" class="nav-item nav-link active">Home</a>
+            <a href="#about" class="nav-item nav-link">About</a>
+            <a href="#service" class="nav-item nav-link">Vitals</a>
+            <a href="#X-Rays" class="nav-item nav-link">X-Rays</a>
+            <a href="#Brislet" class="nav-item nav-link">Brislet</a>
+            <a href="/prediction" class="nav-item nav-link">Prediction</a>
+          </div>
         </div>
-    </nav>
+      </div>
+    </div>
+    <!-- Nav Bar End -->
 
-    <h1 class='text-center py-3'
-            style="font-variant: petite-caps;margin-bottom:0px">
-            <b><i>HealthCure - an all in one medical solution</i></b>
-    </h1>
-
-    <div class="row" style="font-size: 20px;padding: 0px 50px 50px 50px;">
-        <p><b>HealthCure</b> is an all in one medical solution app which brings 7 Disease
-            Detections like Covid Detection, Brain Tumor Detection, Breast Cancer Detection, Alzheimer Detection,
-            Diabetes Detection, Pneumonia Detection, and Heart Disease Detection under one platform.</p>
-
-        <h2 class='text-center py-3'
-            style="color: rgb(255, 255, 255);font-variant: petite-caps;background-color: rgb(0, 0, 0);margin-bottom:0px">
-            <b><i>7 Disease Detections</i></b>
-        </h2>
-
-        <div class='divstyle' style='margin:40px 20px 60px 20px'>
-            <div class="row py-3">
-                <div class="col md-3">
-                    <h3 class='text-center py-3 headstyle' style="font-size: 18px;"><b>Covid Detection</b></h3>
-                    <a href="./covid"><img src="../static/icons/covid.jpg" class="img-fluid mx-auto d-block"></a>
-                </div>
-                <div class="col md-3">
-                    <h3 class='text-center py-3 headstyle' style="font-size: 18px;"><b>Brain Tumor Detection</b></h3>
-                    <a href="./braintumor"><img src="../static/icons/braintumor.png"
-                            class="img-fluid mx-auto d-block"></a>
-                </div>
-                <div class="col md-3">
-                    <h3 class='text-center py-3 headstyle' style="font-size: 18px;"><b>Breast Cancer Detection</b></h3>
-                    <a href="./breastcancer"><img src="../static/icons/breastcancer.png"
-                            class="img-fluid mx-auto d-block"></a>
-                </div>
-                <div class="col md-3">
-                    <h3 class='text-center py-3 headstyle' style="font-size: 18px;"><b>Alzheimer Detection</b></h3>
-                    <a href="./alzheimer"><img src="../static/icons/alzheimer.png"
-                            class="img-fluid mx-auto d-block"></a>
-                </div>
+    <!-- Hero Start -->
+    <div class="hero" id="home">
+      <div class="container-fluid" style="min-height: 60vh">
+        <div class="row align-items-center">
+          <div class="col-sm-12 col-md-6">
+            <div class="hero-content">
+              <div class="hero-text">
+                <br /><br /><br />
+                <p>I'm</p>
+                <h1>Person Name..</h1>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
+    </div>
+    <!-- Hero End -->
 
-        <div class='divstyle' style='margin:40px 20px 60px 20px'>
-            <div class="row py-3">
-                <div class="col md-3">
-                    <h3 class='text-center py-3 headstyle' style="font-size: 18px;"><b>Diabetes Detection</b></h3>
-                    <a href="./diabetes"><img src="../static/icons/diabetes.png" class="img-fluid mx-auto d-block"></a>
-                </div>
-                <div class="col md-3">
-                    <h3 class='text-center py-3 headstyle' style="font-size: 18px;"><b>Pneumonia Detection</b></h3>
-                    <a href="./pneumonia"><img src="../static/icons/pneumonia.png"
-                            class="img-fluid mx-auto d-block"></a>
-                </div>
-                <div class="col md-3">
-                    <h3 class='text-center py-3 headstyle' style="font-size: 18px;"><b>Heart Disease Detection</b></h3>
-                    <a href="./heartdisease"><img src="../static/icons/heartdisease.png"
-                            class="img-fluid mx-auto d-block"></a>
-                </div>
-                <div class="col md-3">
-                </div>
-            </div>
+    <!-- About Start -->
+    <div class="about wow fadeInUp" data-wow-delay="0.1s" id="about">
+      <div class="container-fluid">
+        <div
+          class="section-header text-center wow zoomIn"
+          data-wow-delay="0.1s"
+        >
+          <p>About Me</p>
         </div>
-
-
-        <h3 class='text-center py-3'
-            style="color: rgb(255, 255, 255);font-variant: petite-caps;background-color: rgb(0, 0, 0);margin-bottom:0px">
-            <b><i>AI in <i class="fa-solid fa-heart-pulse"></i><br>Medicare</i></b>
-        </h3>
-        <div class="row py-3"
-            style='margin-bottom: 30px;'>
-            <div class="col">
-                <p class="text-left" style='font-size:18px'>
-                    The artificial intelligence (AI) technologies becoming ever present in modern business and
-                    everyday
-                    life is
-                    also steadily being applied to healthcare. The use of artificial intelligence in healthcare has
-                    the
-                    potential to assist healthcare providers in many aspects of patient care and administrative
-                    processes. Most
-                    AI and healthcare technologies have strong relevance to the healthcare field, but the tactics
-                    they
-                    support
-                    can vary significantly. And while some articles on artificial intelligence in healthcare suggest
-                    that the
-                    use of artificial intelligence in healthcare can perform just as well or better than humans at
-                    certain
-                    procedures, such as diagnosing disease, it will be a significant number of years before AI in
-                    healthcare
-                    replaces humans for a broad range of medical tasks.
-                </p>
+        <div class="row align-items-center">
+          <div class="col-lg-4">
+            <div class="about-img">
+              <img src="../static/image/pngwing.png" alt="Image" />
             </div>
-            <div class="col">
-                <img src="../static/healthcure.png" class="img-fluid rounded mx-auto d-block" alt="...">
+          </div>
+          <div class="col-lg-8">
+            <div class="about-content">
+              <div class="section-header text-left">
+                <div class="skills">
+                  <div class="skill-name">
+                    <p>Age: <span>40</span></p>
+                    <br />
+                  </div>
+                  <div class="skill-name">
+                    <p>Gender: <span>Male</span></p>
+                    <br />
+                  </div>
+                  <div class="skill-name">
+                    <p>Phone: <span>+2003006800</span></p>
+                    <br />
+                  </div>
+                  <div class="skill-name">
+                    <p>Emergency Phone: <span>+2003006800</span></p>
+                    <br />
+                  </div>
+                  <div class="skill-name">
+                    <p>Addres: <span>Cuntry/ town </span></p>
+                    <br />
+                  </div>
+                  <div class="skill-name">
+                    <p>blood type: <span>A+</span></p>
+                    <br />
+                  </div>
+                  <!-- <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div> -->
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
+    </div>
+    <!-- About End -->
 
-        <h3 class='text-center py-3'
-            style="color: rgb(255, 255, 255);font-variant: petite-caps;background-color: rgb(0, 0, 0);margin-bottom:0px">
-            <b><i>Machine Learning</i></b>
-        </h3>
-        <div class="row py-3" style='margin-bottom: 30px'>
-            <div class="col">
-                <p class="text-left" style='font-size:18px'>
-                    Machine learning is one of the most common forms of artificial intelligence in healthcare. It is
-                    a
-                    broad technique at the core of many approaches to AI and healthcare technology and there are
-                    many
-                    versions of it.
-                    Using artificial intelligence in healthcare, the most widespread utilization of traditional
-                    machine
-                    learning is precision medicine. Being able to predict what treatment procedures are likely to be
-                    successful
-                    with patients based on their make-up and the treatment framework is a huge leap forward for many
-                    healthcare organizations. The majority of AI in healthcare that uses machine learning and
-                    precision
-                    medicine applications require data for training, for which the end result is known. This is
-                    known as
-                    supervised learning.
-                </p>
-            </div>
-            <div class="col">
-                <img src="../static/ml.png" class="img-fluid rounded mx-auto d-block" alt="...">
-            </div>
+    <!-- Service Start -->
+    <div class="service" id="service">
+      <div class="container">
+        <div
+          class="section-header text-center wow zoomIn"
+          data-wow-delay="0.1s"
+        >
+          <p>Vitals</p>
         </div>
-
-
-        <h3 class='text-center py-3'
-            style="color: rgb(255, 255, 255);font-variant: petite-caps;background-color: rgb(0, 0, 0);margin-bottom:0px">
-            <b><i>Natural Language Processing</i></b>
-        </h3>
-        <div class="row py-3" style='margin-bottom: 30px'>
-            <div class="col">
-                <p class="text-left" style='font-size:18px'>
-                    Making sense of human language has been a goal of artificial intelligence and healthcare
-                    technology
-                    for over
-                    50 years. Most NLP systems include forms of speech recognition or text analysis and then
-                    translation. A
-                    common use of artificial intelligence in healthcare involves NLP applications that can
-                    understand
-                    and
-                    classify clinical documentation. NLP systems can analyze unstructured clinical notes on
-                    patients,
-                    giving
-                    incredible insight into understanding quality, improving methods, and better results for
-                    patients.
-                </p>
+        <div class="row">
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
+            <div class="service-item">
+              <div class="service-icon">
+                <img src="../static/image/sugar-blood-level.png" />
+              </div>
+              <div class="service-text">
+                <h3>Diabetes :</h3>
+                <p>120 ,Status : (Medium)</p>
+              </div>
             </div>
-            <div class="col">
-                <img src="../static/nlp.jpg" class="img-fluid rounded mx-auto d-block" style='width:auto; height:300px'
-                    alt="...">
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="service-item">
+              <div class="service-icon">
+                <img src="../static/image/arm.png" />
+              </div>
+              <div class="service-text">
+                <h3>Blood Pressure :</h3>
+                <p>120/80</p>
+              </div>
             </div>
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="service-item">
+              <div class="service-icon">
+                <img src="../static/image/thermometer.png" />
+              </div>
+              <div class="service-text">
+                <h3>Temperature :</h3>
+                <p>37 C</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="service-item">
+              <div class="service-icon">
+                <img src="../static/image/life-line.png" />
+              </div>
+              <div class="service-text">
+                <h3>Pulse :</h3>
+                <p>70 beats par min</p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
+    <!-- Service End -->
 
+    <!-- Portfolio Start -->
+    <div class="portfolio" id="X-Rays">
+      <div class="container">
+        <div
+          class="section-header text-center wow zoomIn"
+          data-wow-delay="0.1s"
+        >
+          <p>My X-rayes</p>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <ul id="portfolio-filter">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-1">BRAIN</li>
+              <li data-filter=".filter-2">chest</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row portfolio-container">
+          <div
+            class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp"
+            data-wow-delay="0.0s"
+          >
+            <div class="X-raye-wrap">
+              <div class="X-rayes-img">
+                <img src="../static/image/brain tumer1.jpeg" alt="Image" />
+              </div>
+              <div class="X-rayes-text">
+                <h3>brain tumer1</h3>
+                <a
+                  class="btn"
+                  href="../static/image/brain tumer1.jpeg"
+                  data-lightbox="X-raye"
+                  >+</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp"
+            data-wow-delay="0.2s"
+          >
+            <div class="X-raye-wrap">
+              <div class="X-rayes-img">
+                <img src="../static/image/brain tumer4.jpg" alt="Image" />
+              </div>
+              <div class="X-rayes-text">
+                <h3>brain tumer2</h3>
+                <a
+                  class="btn"
+                  href="../static/image/brain tumer4.jpeg"
+                  data-lightbox="X-raye"
+                  >+</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp"
+            data-wow-delay="0.4s"
+          >
+            <div class="X-raye-wrap">
+              <div class="X-rayes-img">
+                <img src="../static/image/covid19no.jpeg" alt="Image" />
+              </div>
+              <div class="X-rayes-text">
+                <h3>covid19no</h3>
+                <a
+                  class="btn"
+                  href="../static/image/covid19no.jpeg"
+                  data-lightbox="X-raye"
+                  >+</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp"
+            data-wow-delay="0.6s"
+          >
+            <div class="X-raye-wrap">
+              <div class="X-rayes-img">
+                <img src="../static/image/brain tumer2.jpeg" alt="Image" />
+              </div>
+              <div class="X-rayes-text">
+                <h3>brain tumer3</h3>
+                <a
+                  class="btn"
+                  href="../static/image/brain tumer2.jpeg"
+                  data-lightbox="X-raye"
+                  >+</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp"
+            data-wow-delay="0.8s"
+          >
+            <div class="X-raye-wrap">
+              <div class="X-rayes-img">
+                <img src="../static/image/PneumoniaYES.jpeg" alt="Image" />
+              </div>
+              <div class="X-rayes-text">
+                <h3>PneumoniaYES</h3>
+                <a
+                  class="btn"
+                  href="../static/image/PneumoniaYES.jpeg"
+                  data-lightbox="X-raye"
+                  >+</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp"
+            data-wow-delay="1s"
+          >
+            <div class="X-raye-wrap">
+              <div class="X-rayes-img">
+                <img src="../static/image/covid19yes.jpeg" alt="Image" />
+              </div>
+              <div class="X-rayes-text">
+                <h3>covid19yes</h3>
+                <a
+                  class="btn"
+                  href="../static/image/covid19yes.jpeg"
+                  data-lightbox="X-raye"
+                  >+</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio End -->
+    <!-- Banner Start -->
 
+    <section id="Brislet" style="padding-bottom:50px ;">
+      <div
+        class="container d-flex flex-column justify-content-center align-items-center"
+      >
+        <div
+          class="section-header text-center wow zoomIn"
+          data-wow-delay="0.1s"
+        >
+          <p>Brislet</p>
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+          <!-- Heart Rate Circle -->
+          <div
+            class="rounded-circle text-primary d-flex justify-content-center align-items-center"
+            style="
+              width: 160px;
+              height: 160px;
+              background-color: white;
+              color: black;
+              border: solid #46697a;
+              margin-right: 50px;
+            "
+          >
+            <h3 id="HeartRate" class="text-center fs-6" style="color: #46697a; font-size:25px;">
+              Heart Rate
+            </h3>
+          </div>
+          <!-- Temperature Circle -->
+          <div
+            class="rounded-circle text-white d-flex justify-content-center align-items-center"
+            style="
+              width: 160px;
+              height: 160px;
+              background-color: #46697a;
+              color: white;
+              margin-left: 50px;
+            "
+          >
+            <h3 id="Temperature" class="text-white" style="font-size:25px;">Temperature</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Banner End -->
 
-    <footer class='text-light bg-dark position-relative '>
-        <p class='text-center py-1 my-0'>
-            Made with ❤ by Abhishek
-        </p>
-    </footer>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="../static/lib/easing/easing.min.js"></script>
+    <script src="../static/lib/wow/wow.min.js"></script>
+    <script src="../static/lib/waypoints/waypoints.min.js"></script>
+    <script src="../static/lib/typed/typed.min.js"></script>
+    <script src="../static/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../static/lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="../static/lib/lightbox/js/lightbox.min.js"></script>
 
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-        crossorigin="anonymous"></script>
-
-
-
-</body>
-
+    <!-- Template Javascript -->
+    <script src="../static/js/APi.js"></script>
+  </body>
 </html>
