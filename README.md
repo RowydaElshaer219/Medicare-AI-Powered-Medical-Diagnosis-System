@@ -43,7 +43,7 @@ medicare/
 ![Screenshot 4](static/implementation/alzheimer%20result.jpeg)
 
 ## 📸 Implementation Video 
-![Video](static/MEDICARE.mp4)
+[Watch the Video Here](https://drive.google.com/file/d/1-RRHk_osSY8HOccsS6THHqsyJDWkI9-V/view?usp=sharing)
 
 ## 🔧 Installation & Setup
 1. Clone the repository:
