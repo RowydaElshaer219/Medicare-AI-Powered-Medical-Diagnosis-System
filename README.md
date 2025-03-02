@@ -42,6 +42,9 @@ medicare/
 ![Screenshot 3](static/implementation/alzheimer.jpeg)
 ![Screenshot 4](static/implementation/alzheimer%20result.jpeg)
 
+## 📸 Implementation Video 
+![Video](static/MEDICARE.mp4)
+
 ## 🔧 Installation & Setup
 1. Clone the repository:
    ```bash
