@@ -37,10 +37,10 @@ medicare/
 ## 📸 Implementation Screenshots
 (Add images here after uploading)
 
-![Screenshot 1](https://raw.githubusercontent.com/Abuhamida/Medicare-AI-Powered-Medical-Diagnosis-System/edit//main/static/implementation/home.jpeg)
-![Screenshot 2](https://raw.githubusercontent.com/Abuhamida/Medicare-AI-Powered-Medical-Diagnosis-System/edit//main/static/implementation/prediction.jpeg)
-![Screenshot 3](https://raw.githubusercontent.com/Abuhamida/Medicare-AI-Powered-Medical-Diagnosis-System/edit//main/static/implementation/alzheimer.jpeg)
-![Screenshot 4](https://raw.githubusercontent.com/Abuhamida/Medicare-AI-Powered-Medical-Diagnosis-System/edit//main/static/implementation/alzheimer%20result.jpeg)
+![Screenshot 1](https://raw.githubusercontent.com/Abuhamida/Medicare-AI-Powered-Medical-Diagnosis-System/main/static/implementation/home.jpeg)
+![Screenshot 2](https://raw.githubusercontent.com/Abuhamida/Medicare-AI-Powered-Medical-Diagnosis-System/main/static/implementation/prediction.jpeg)
+![Screenshot 3](https://raw.githubusercontent.com/Abuhamida/Medicare-AI-Powered-Medical-Diagnosis-System/main/static/implementation/alzheimer.jpeg)
+![Screenshot 4](https://raw.githubusercontent.com/Abuhamida/Medicare-AI-Powered-Medical-Diagnosis-System/main/static/implementation/alzheimer%20result.jpeg)
 
 ## 📸 Implementation Video 
 [Watch the Video Here](https://drive.google.com/file/d/1-RRHk_osSY8HOccsS6THHqsyJDWkI9-V/view?usp=sharing)
@@ -48,8 +48,8 @@ medicare/
 ## 🔧 Installation & Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Abuhamida/medicare_predection.git
-   cd medicare_predection
+   git clone https://github.com/Abuhamida/Medicare-AI-Powered-Medical-Diagnosis-System.git
+   cd Medicare-AI-Powered-Medical-Diagnosis-System
    ```
 2. Create a virtual environment (optional but recommended):
    ```bash
