@@ -37,10 +37,10 @@ medicare/
 ## 📸 Implementation Screenshots
 (Add images here after uploading)
 
-![Screenshot 1](static/implementation/home.jpeg)
-![Screenshot 2](static/implementation/prediction.jpeg)
-![Screenshot 3](static/implementation/alzheimer.jpeg)
-![Screenshot 4](static/implementation/alzheimer%20result.jpeg)
+![Screenshot 1](https://raw.githubusercontent.com/Abuhamida/medicare_predection/main/static/implementation/home.jpeg)
+![Screenshot 2](https://raw.githubusercontent.com/Abuhamida/medicare_predection/main/static/implementation/prediction.jpeg)
+![Screenshot 3](https://raw.githubusercontent.com/Abuhamida/medicare_predection/main/static/implementation/alzheimer.jpeg)
+![Screenshot 4](https://raw.githubusercontent.com/Abuhamida/medicare_predection/main/static/implementation/alzheimer%20result.jpeg)
 
 ## 📸 Implementation Video 
 [Watch the Video Here](https://drive.google.com/file/d/1-RRHk_osSY8HOccsS6THHqsyJDWkI9-V/view?usp=sharing)
@@ -73,8 +73,17 @@ This project is licensed under the MIT License.
 ## 🤝 Contribution
 Feel free to contribute! Fork the repository, create a new branch, and submit a pull request.
 
-## 📞 Contact
-- **Author:** Mohamed Ramdan AbuHamida
-- **GitHub:** [Abuhamida](https://github.com/Abuhamida)
-- **LinkedIn:** [Mohamed AbuHamida](https://www.linkedin.com/in/mohammed-abuhamida-969693220/)
+---
+
+## 🤝 Connect with Me
+- 📧 **Email**: mohamedabuhamida3@gamil.com
+- 🌐 [**Portfolio**](https://mohamed-abuhamida.vercel.app/)
+- 💼 [**LinkedIn**](https://www.linkedin.com/in/mohammed-abuhamida/)
+- 🐙 [**GitHub**](https://github.com/Abuhamida)
+
+---
+
+> ⚡ *Feel free to contribute by creating issues or submitting pull requests to improve this project!* 🚀
+
+
 
