@@ -37,10 +37,10 @@ medicare/
 ## 📸 Implementation Screenshots
 (Add images here after uploading)
 
-![Screenshot 1](https://raw.githubusercontent.com/Abuhamida/medicare_predection/main/static/implementation/home.jpeg)
-![Screenshot 2](https://raw.githubusercontent.com/Abuhamida/medicare_predection/main/static/implementation/prediction.jpeg)
-![Screenshot 3](https://raw.githubusercontent.com/Abuhamida/medicare_predection/main/static/implementation/alzheimer.jpeg)
-![Screenshot 4](https://raw.githubusercontent.com/Abuhamida/medicare_predection/main/static/implementation/alzheimer%20result.jpeg)
+![Screenshot 1](https://raw.githubusercontent.com/Abuhamida/Medicare-AI-Powered-Medical-Diagnosis-System/edit//main/static/implementation/home.jpeg)
+![Screenshot 2](https://raw.githubusercontent.com/Abuhamida/Medicare-AI-Powered-Medical-Diagnosis-System/edit//main/static/implementation/prediction.jpeg)
+![Screenshot 3](https://raw.githubusercontent.com/Abuhamida/Medicare-AI-Powered-Medical-Diagnosis-System/edit//main/static/implementation/alzheimer.jpeg)
+![Screenshot 4](https://raw.githubusercontent.com/Abuhamida/Medicare-AI-Powered-Medical-Diagnosis-System/edit//main/static/implementation/alzheimer%20result.jpeg)
 
 ## 📸 Implementation Video 
 [Watch the Video Here](https://drive.google.com/file/d/1-RRHk_osSY8HOccsS6THHqsyJDWkI9-V/view?usp=sharing)
